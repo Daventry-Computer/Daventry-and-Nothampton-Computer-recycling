@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You – Daventry and Northampton 
+  Computer Recycling</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #ffddaa;
+      color: #222;
+      margin: 0;
+      line-height: 1.6;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.15) 0%,
+      rgba(255,255,255,0.15) 15%,
+      rgba(255,221,170,1) 25%,
+      rgba(255,221,170,1) 75%,
+      rgba(255,255,255,0.15) 85%,
+      rgba(255,255,255,0.15) 100%
+    ),
+    url('ewaste-background.jpg') center/cover no-repeat;
+  z-index: -1;
+}
+
+
+    h1 {
+      color: #2f9e44;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #555;
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+    .card {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    a.button {
+      display: inline-block;
+      background: #2f9e44;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-top: 20px;
+    }
+    a.button:hover {
+      background: #1c7ed6;
+    }
+.notice {
+      background: #fff3cd;
+      color: #7a5a00;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 800;
+      margin-top: 25px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .notice-red {
+      background: #ffe3e3;
+      color: #b00000;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 800;
+      margin-top: 25px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+
+  <!-- 10-second auto redirect -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "index.html";
+    }, 10000);
+  </script>
+</head>
+
+<body>
+<header>
+        <img src="Herts logo1.jpg"
+        alt="Herts Computer Recycling Co Logo"
+        style="width:120px; margin-bottom:15px; filter: drop-shadow(0 2px 4px         rgba(0,0,0,0.15));">
+  <h1>Thank You!</h1>
+  <p>Your collection request has been received.  
+     We’ll contact you shortly to arrange a collection time.</p>
+
+  <div class="card">
+    <p>Thank you for helping reduce e‑waste and supporting Computer access  
+       for people and organisations across Daventry and Northampton.</p>
+  </div>
+
+  <p class="notice-red">⚠️ Please check your Junk/Spam folder if you don't get a reply within 24 Hours. ⚠️</p>
+
+
+
+  <a href="index.html" class="button">Return to Home Page</a>
+
+  <footer>
+    &copy; <span id="year"></span> Daventry and Northampton Computer Recycling
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

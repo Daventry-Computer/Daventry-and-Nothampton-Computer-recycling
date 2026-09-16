@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daventry and Northampton 
+  Computer Recycling Co</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+  font-family: system-ui, sans-serif;
+  background: #ffddaa;
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.15) 0%,
+      rgba(255,255,255,0.15) 15%,
+      rgba(255,221,170,1) 25%,
+      rgba(255,221,170,1) 75%,
+      rgba(255,255,255,0.15) 85%,
+      rgba(255,255,255,0.15) 100%
+    ),
+    url('ewaste-background.jpg') center/cover no-repeat;
+  z-index: -1;
+}
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    h1 {
+      color: #2f9e44;
+      font-size: 2rem;
+    }
+    .tagline {
+      font-size: 1.3rem;
+      color: #555;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: #f5f5f5;
+      border-radius: 10px;
+      padding: 18px;
+    }
+    .banner {
+      background: #2f9e44;
+      color: #fff;
+      text-align: center;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    form {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    form h2 {
+      color: #1c7ed6;
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .notice {
+      background: #fff3cd;
+      color: #7a5a00;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 800;
+      margin-top: 25px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .notice-red {
+      background: #ffe3e3;
+      color: #b00000;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 800;
+      margin-top: 25px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    button {
+      background: #2f9e44;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 1rem;
+      margin-top: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1c7ed6;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <img src="Herts logo1.jpg"
+      alt="Herts Computer Recycling Co Logo"
+      style="width:120px; margin-bottom:15px; filter: drop-shadow(0 2px 4px             rgba(0,0,0,0.15));">
+    <h1>Daventry and Northampton 
+  Computer Recycling</h1>
+    <p class="tagline">Give your old tech a second life.</p>
+  </header>
+
+  <main>
+    <section class="grid">
+      <div class="card">💻 We collect PCs, Macs & laptops — any condition.</div>
+      <div class="card">💻 PCs and laptops - Windows 10 minimum. Macs - MacOS Mojave minimum.</div>
+      <div class="card">🔒 3 phase Secure data wiping guaranteed on ALL Hard Drives.</div>
+      <div class="card">🔒 Certificated wiping available on request.</div>
+      <div class="card">❤️ Refurbished devices donated to local causes.</div>
+      <div class="card">👥 We offer a Free, non‑profit, community‑driven service.</div>
+    </section>
+
+    <div class="banner">Free collection available across Daventry and Northampton area</div>
+
+    <form action="https://formsubmit.co/johnvaughan336@outlook.com" method="POST">
+      <input type="hidden" name="_next" value="https://hertscomputer.github.io/herts-computer-recycling/thankyou.html">
+      <h2>Request a Free Collection</h2>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="address">Collection Address</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <label for="items">Items to Donate</label>
+      <textarea id="items" name="items" rows="3" placeholder="e.g. 2 laptops, 1 desktop PC"></textarea>
+
+      <input type="hidden" name="_subject" value="New Collection Request">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <input type="hidden" name="_cc" value="johnvaughan336@gmail.com">
+ 
+     <button type="submit">Submit Request</button>
+    </form>
+
+    <p class="notice-red">⚠️ Please check your Junk/Spam folder if you don't get a reply within 24 Hours. ⚠️</p>
+
+    <footer>
+      Tel: <a href="tel:07837775683">07837 775683</a> · 
+      Find us on Facebook: <a href="https://www.facebook.com/Daventry and Northampton
+  Computer Recycling" target="_blank">Daventry and Northampton 
+  Computer Recycling</a><br>
+      &copy; <span id="year"></span> Daventry and Northampton 
+  Computer Recycling
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
